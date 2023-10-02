@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishu-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(10, 10, 52);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(20, 20, 80);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        /* text hyperlink ki trha show ho rha tha isliye text decoration ko none kr diya */
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* hover krne pe kya hogaa  */
+        nav ul li a:hover {
+            color: rgb(83, 83, 172);
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.50rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 104px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+
+        .leftsection {
+            font-size: 2.5rem;
+        }
+
+        .leftsection .button {
+            padding: 40px 0px;
+        }
+
+        .leftsection .btn {
+            background: #0a0a32;
+            border: 2px solid white;
+            border-radius: 15px;
+            color: white;
+            padding: 12px;
+            cursor: pointer;
+            font-size: 17px;
+        }
+
+        .leftsection .btn a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .rightsection img {
+            width: 100%;
+        }
+
+        .purple {
+            color: rgb(158, 97, 215);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(158, 97, 215);
+
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 37vw;
+        }
+
+        .box-dev img {
+            height: 41px;
+            position: relative;
+            top: -51px;
+            left: 255px;
+
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            height: 2px;
+            margin: 76px 0px;
+            width: 80vw;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 80px;
+            width: 1px;
+            background: white;
+            margin: 0px 90px;
+        }
+
+        .timelinephoto {
+            position: relative;
+            top: -55px;
+            left: -16px;
+            width: 45px;
+
+        }
+
+        .timelinephotoreact {
+            height: 56px;
+            width: 60px;
+            position: relative;
+            top: -67px;
+            left: -29px;
+
+        }
+
+        .timelinephotoexpress {
+            height: 45px;
+            width: 48px;
+            position: relative;
+            top: -55px;
+            left: -23px;
+        }
+
+        .timelinephotojava {
+            height: 45px;
+            width: 48px;
+            position: relative;
+            top: -55px;
+            left: -23px;
+        }
+
+
+
+        .vertical-title {
+            position: relative;
+            top: 32px;
+            left: -6px;
+            width: 132px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 47px;
+            left: -3px;
+            width: 150px;
+            color: gray;
+            font-size: 11px;
+        }
+
+
+        main hr {
+            border: 0px;
+            background: #423d9f;
+            height: 0.5px;
+            margin: 9px 84px;
+        }
+
+        footer {
+            background-color: #11114e;
+        }
+
+        .footer {
+
+            display: flex;
+            padding: 23px 123px;
+            justify-content: space-evenly;
+        }
+
+        footer ul {
+            list-style: none;
+        }
+        footer ul a {
+            text-decoration: none;
+            color: white;
+        }
+
+        
+
+        .footer>div {
+            width: 110px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px;
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Vishesh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="https://medium.com/@vishu12113">BlogPage</li></a>
+                    <li><a href="https://medium.com/@vishu12113/my-introduction-7e0bd2a97bce">AboutMe</li></a>
+                    <li><a href="/">Projects</li></a>
+                    <li><a href="https://www.linkedin.com/in/vishesh2003/">LinkedIn
+                    </li></a>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Vishesh</span>
+                <div>and I am a passinate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">
+                        <a
+                            href="https://drive.google.com/file/d/1JX28ju9yVt3lrExPJR6DyqMAFtELj3a9/view?usp=sharing">DownloadResume</a>
+                    </button>
+                    <button class="btn">
+                        <a href="https://github.com/vishu-cpp">VisitGithub</a>
+                    </button>
+
+                </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="developer.png" alt="">
+
+            </div>
+        </section>
+        <!-- <hr> is se border banta hai-->
+        <hr>
+
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Expirence</h1>
+            <div class="box-dev">
+                <img src="Devtimeline.png" alt="">
+            </div>
+            <div class="box">
+                <div class="vertical">
+                    <img src="python.png" class='timelinephoto' alt="">
+                    <div class="vertical-title">
+                        Python Language
+                        (2019-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere, praesentium eligendi
+                        accusantium velit alias nulla consectetur tempora quae! Quo labore nisi, ullam laudantium vero
+                        dolores modi enim veniam architecto.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="C++.png" class='timelinephoto' alt="">
+                    <div class="vertical-title">
+                        C++ Language
+                        (2023-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere, praesentium eligendi
+                        accusantium velit alias nulla consectetur tempora quae! Quo labore nisi, ullam laudantium vero
+                        dolores modi enim veniam architecto.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="ReactLogo.png" class='timelinephotoreact' alt="">
+                    <div class="vertical-title">
+                        React Developer
+                        (2023-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere, praesentium eligendi
+                        accusantium velit alias nulla consectetur tempora quae! Quo labore nisi, ullam laudantium vero
+                        dolores modi enim veniam architecto.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="express.png" class='timelinephotoexpress' alt="">
+                    <div class="vertical-title">
+                        Express library usage
+                        (2023-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere, praesentium eligendi
+                        accusantium velit alias nulla consectetur tempora quae! Quo labore nisi, ullam laudantium vero
+                        dolores modi enim veniam architecto.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="pngwing.com.png" class='timelinephoto' alt="">
+                    <div class="vertical-title">
+                        NodeJs Developer
+                        (2023-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere, praesentium eligendi
+                        accusantium velit alias nulla consectetur tempora quae! Quo labore nisi, ullam laudantium vero
+                        dolores modi enim veniam architecto.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="MongoDB.png" class='timelinephoto' alt="">
+                    <div class="vertical-title">
+                        MongoDB Atlas
+                        (2023-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere, praesentium eligendi
+                        accusantium velit alias nulla consectetur tempora quae! Quo labore nisi, ullam laudantium vero
+                        dolores modi enim veniam architecto.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="java.png" class='timelinephotojava' alt="">
+                    <div class="vertical-title">
+                        Java Language
+                        (2023-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere, praesentium eligendi
+                        accusantium velit alias nulla consectetur tempora quae! Quo labore nisi, ullam laudantium vero
+                        dolores modi enim veniam architecto.
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Vishesh's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>
+                        <a href="github.com/vishu-cpp">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/vishu.py/">Insta</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/vishesh2003/">LinkedIN</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Call</li>
+                    <li>ContactME</li>
+                    <li>Connect</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Call</li>
+                    <li>ContactME</li>
+                    <li>Connect</li>
+                </ul>
+            </div>
+            <div class="footer-fifith">
+                <ul>
+                    <li>Call</li>
+                    <li>ContactME</li>
+                    <li>Connect</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            CopyRights &#169; Made by Vishesh | All Right Reserved
+
+        </div>
+    </footer>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['MERN Developer', 'Web Designer', 'Video Editor', 'C++ Programmer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
